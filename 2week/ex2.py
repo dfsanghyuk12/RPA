@@ -1,7 +1,7 @@
 a=123
 b=15.556
 
-#print(a, b, sep=',', end='\n\n')
+print(a, b, sep=',', end='\n\n')
 
 print("a:{0} b:{1}".format(a, b))
 print(f"a:{a} b:{b}")
