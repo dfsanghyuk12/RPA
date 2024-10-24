@@ -12,7 +12,7 @@ plt.rc('font', family=font_name)
 #히스토그램 그리기
 
 plt.figure(figsize=(10, 17))
-plt.subplot(1, 2, 1)
+#plt.subplot(1, 2, 1)
 plt.hist(hat.weight, bins = 7)
 plt.title('B 부회장 병아리 무게 분포 근황', fontsize = 17)
 plt.xlabel('병아리 무게(g)')
