@@ -16,5 +16,4 @@ for i in range(1000):
     address = fake.address()
     ws.append([name, gender, email, phone_number, address])
     
-wb.save('fakeinfo.xlsx')    
-    
+wb.save('fakeinfo.xlsx')
